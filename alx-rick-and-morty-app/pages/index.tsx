@@ -78,7 +78,7 @@ const Home: React.FC = () => {
       <footer className='bg-[#4CA1AF] text-white py-4 text-center shadow-md'>
         <p>&copy; 2024 Rick and Morty Fan Page</p>
       </footer>
-      <ErrorProneComponent />
+      
     </div>
   );
 };
