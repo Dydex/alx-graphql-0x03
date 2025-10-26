@@ -3,6 +3,7 @@ import GET_EPISODES from '@/graphql/queries';
 import { EpisodeData, EpisodeProps } from '@/interfaces';
 import EpisodeCard from '@/components/common/EpisodeCard';
 import { useEffect, useState } from 'react';
+import ErrorProneComponent from '@/components/common/ErrorProneComponent';
 
 const Home: React.FC = () => {
   const [page, setPage] = useState<number>(1);
@@ -77,6 +78,7 @@ const Home: React.FC = () => {
       <footer className='bg-[#4CA1AF] text-white py-4 text-center shadow-md'>
         <p>&copy; 2024 Rick and Morty Fan Page</p>
       </footer>
+      <ErrorProneComponent />
     </div>
   );
 };

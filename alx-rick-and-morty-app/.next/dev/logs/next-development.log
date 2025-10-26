@@ -1,0 +1,10 @@
+[00:00:37.754] Server  LOG      ✓ Ready in 26.7s
+[00:01:03.799] Server  LOG      ○ Compiling / ...
+[00:02:35.405] Browser LOG     Download the Apollo DevTools for a better development experience: %s https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
+[00:24:23.070] Server  LOG      ✓ Compiled in 1884ms
+[00:24:23.817] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ErrorProneComponent> component. React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
